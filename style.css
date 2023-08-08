@@ -63,6 +63,19 @@ p {
 
 .price {
     color: #999;
+    margin-bottom: 1rem;
+}
+
+.price span {
+    margin-right: .5rem;
+    font-weight: 600;
+}
+
+small {
+    font-weight: 500;
+    margin-left: 0.25rem;
+    font-size: 0.625rem;
+    vertical-align: top;
 }
 
 @media (min-width: 64rem) {
