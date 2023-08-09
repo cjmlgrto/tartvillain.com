@@ -75,7 +75,7 @@ small {
     font-weight: 500;
     margin-left: 0.25rem;
     font-size: 0.625rem;
-    vertical-align: top;
+    vertical-align: baseline;
 }
 
 @media (min-width: 64rem) {
