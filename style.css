@@ -74,6 +74,16 @@ small {
     vertical-align: baseline;
 }
 
+.featured {
+    padding: 1rem;
+    background-color: rgba(255,255,255,0.025);
+    border-radius: 1rem;
+}
+
+.featured img {
+    max-width: 100%;
+}
+
 @media (min-width: 64rem) {
     body {
         padding: 4rem;
@@ -92,6 +102,23 @@ small {
     li {
         max-width: calc(25% - 4rem);
         margin: 2rem 4rem;
+    }
+
+    .featured {
+        max-width: 100%;
+        margin: 2rem;
+        padding: 2rem;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .featured img {
+        margin-bottom: 0;
+    }
+
+    .content {
+        margin-left: 2rem;
     }
 }
 
